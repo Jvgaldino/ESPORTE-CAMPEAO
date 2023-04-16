@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>WebSocket test</title>
+</head>
+<body>
+    <main>Status: <span id="hello"></span></main>
+    <script>
+        const target = document.getElementById("Hello");
+        const socket = new WebSocket("ws://localhost:3000");
+        socket.onmessage = function (event){
+            target.innerHTML = event.data;
+        };
+        socket.onopen = function () {
+            socket.send("Olá do cliente!");
+            target.innerHTML = "Enviado a primeira mensagem ao servidor...";
+        };
+    </script>
+</body>
+</html>
