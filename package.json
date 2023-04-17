@@ -54,6 +54,7 @@
     "serve-static": "^1.15.0",
     "setprototypeof": "^1.2.0",
     "side-channel": "^1.0.4",
+    "sqlite3": "^5.1.6",
     "statuses": "^2.0.1",
     "toidentifier": "^1.0.1",
     "type-is": "^1.6.18",
@@ -61,10 +62,13 @@
     "utils-merge": "^1.0.1",
     "vary": "^1.1.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "JOAO VICTOR",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "ESPORTE-CAMPEAO"
+  }
 }
